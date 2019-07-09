@@ -1,0 +1,911 @@
+<script>
+	var descGaugeInfo = {
+		descST: (new Date()).getTime()
+	};
+</script>
+<script type="text/javascript">
+	window.onerror = function (message, url, line) {
+		return true;
+	};
+</script>
+<script type="text/javascript">
+	var ebayItemID = '123749341837';
+	var ebayItemRevisionTime = '1562600171000';
+	var ebayAskSellerURL =
+		'https://contact.ebay.com/ws/eBayISAPI.dll?ShowSellerFAQ&iid=123749341837&requested=qantis&redirect=0&frm=284&rt=nc&_trksid=p2047675.l1499&ssPageName=PageSellerM2MFAQ_VI';
+	var _odtTitle = '';
+	var _odtSubTitle = '';
+	var _isTranslError = false;
+	var _sellerId = 'qantis';
+	var _dmn = 'ebay.com';
+</script>
+<script type="text/javascript">
+	try {
+		var jsonObj = {};
+		var hashParam = document.location.hash;
+		if (hashParam && hashParam.length > 0) {
+			hashParam = decodeURI(hashParam.replace('#', ''));
+		}
+		if (hashParam && typeof (hashParam) === 'string') {
+			jsonObj = JSON.parse(hashParam);
+		}
+		if (jsonObj && jsonObj.jsUrl) {
+			var jsUrl = jsonObj.jsUrl;
+			var script = document.createElement('script');
+			if (jsUrl.indexOf('//') != -1) {
+				script.src = jsUrl;
+			} else {
+				script.src = '//ir.ebaystatic.com/rs/v/' + jsUrl + '.js';
+			}
+			script.defer = true;
+			document.head.appendChild(script);
+		}
+		if (jsonObj && jsonObj.title) {
+			var title = jsonObj.title;
+			document.title = title;
+		}
+	} catch (e) {
+
+	}
+</script>
+<title>eBay</title>
+<table align="center" style="border-spacing: 0px; width: 100%;">
+	<tr>
+		<td>
+			<div id="ds_div">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<style>
+					img {
+						max-width: 100%
+					}
+				</style>
+				<font rwr="1" style="font-family: Arial;">
+					<!-- Auktionsvorlage "Curved" in Blau -->
+					<!-- Design & Programmierung von WebMarx Design 2012 -->
+					<!-- eBay-Shop: https://stores.ebay.de/Webmarx-Design -->
+					<meta https-equiv="X-UA-Compatible" content="IE=9">
+					<style type="text/css">
+						/* HINTERGR&Uuml;NDE */
+						.bg-header {
+							width: 100%;
+							padding-top: 30px;
+							background: #636363;
+							background: -moz-linear-gradient(top, #636363 0%, #a5a5a5 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #636363), color-stop(100%, #a5a5a5));
+							background: -webkit-linear-gradient(top, #636363 0%, #a5a5a5 100%);
+							background: -o-linear-gradient(top, #636363 0%, #a5a5a5 100%);
+							background: -ms-linear-gradient(top, #636363 0%, #a5a5a5 100%);
+							background: linear-gradient(top, #636363 0%, #a5a5a5 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#636363', endColorstr='#a5a5a5', GradientType=0);
+						}
+
+						.bg-content {
+							width: 100%;
+							background: #f2f2f2;
+							background: #f2f2f2;
+							background: -moz-linear-gradient(top, #f2f2f2 0%, #d6d6d6 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #d6d6d6));
+							background: -webkit-linear-gradient(top, #f2f2f2 0%, #d6d6d6 100%);
+							background: -o-linear-gradient(top, #f2f2f2 0%, #d6d6d6 100%);
+							background: -ms-linear-gradient(top, #f2f2f2 0%, #d6d6d6 100%);
+							background: linear-gradient(top, #f2f2f2 0%, #d6d6d6 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#d6d6d6', GradientType=0);
+						}
+
+						.bg-footer {
+							width: 100%;
+							padding-bottom: 30px;
+							margin: 0px;
+							background: #333333;
+							background: -moz-linear-gradient(top, #333333 0%, #606060 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #606060));
+							background: -webkit-linear-gradient(top, #333333 0%, #606060 100%);
+							background: -o-linear-gradient(top, #333333 0%, #606060 100%);
+							background: -ms-linear-gradient(top, #333333 0%, #606060 100%);
+							background: linear-gradient(top, #333333 0%, #606060 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#606060', GradientType=0);
+						}
+
+						/* HEADER */
+						.header {
+							width: 1000px;
+							height: 110px;
+							padding: 10px 10px 0px 10px;
+							background-color: #bbbbbb;
+							-webkit-border-top-left-radius: 40px;
+							-webkit-border-top-right-radius: 40px;
+							-moz-border-radius-topleft: 40px;
+							-moz-border-radius-topright: 40px;
+							border-top-left-radius: 40px;
+							border-top-right-radius: 40px;
+						}
+
+						.logo-corner {
+							float: left;
+							width: 270px;
+							height: 100px;
+							border-top: 5px solid #e1e1e1;
+							border-bottom: 5px solid #C1C1C1;
+							-webkit-border-top-left-radius: 40px;
+							-webkit-border-top-right-radius: 40px;
+							-moz-border-radius-topleft: 40px;
+							-moz-border-radius-topright: 40px;
+							border-top-left-radius: 40px;
+							border-top-right-radius: 40px;
+							margin: 0px;
+							padding: 0px;
+							overflow: hidden;
+						}
+
+						.logo-gradient {
+							width: 100%;
+							height: 100px;
+							padding: 0px;
+							margin: 0px;
+							background: white;
+							background: white;
+							background: ;
+						}
+
+						.logo-text {
+							padding-top: 30px;
+							color: #FFF;
+							text-shadow: 2px 2px #00326b;
+							font-size: 32px;
+							line-height: 26px;
+							font-family: Arial;
+							font-weight: bold;
+						}
+
+						.header-banner-corner {
+							float: right;
+							width: 730px;
+							height: 100px;
+							border-top: 5px solid #e1e1e1;
+							border-bottom: 5px solid #C1C1C1;
+							-webkit-border-top-left-radius: 40px;
+							-webkit-border-top-right-radius: 40px;
+							-moz-border-radius-topleft: 40px;
+							-moz-border-radius-topright: 40px;
+							border-top-left-radius: 40px;
+							border-top-right-radius: 40px;
+							overflow: hidden;
+						}
+
+						.header-banner-gradient {
+							width: 100%;
+							height: 100px;
+							padding: 0px;
+							margin: 0px;
+							background: #f7f7f7;
+							background: -moz-linear-gradient(top, #f7f7f7 0%, #d3d3d3 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #d3d3d3));
+							background: -webkit-linear-gradient(top, #f7f7f7 0%, #d3d3d3 100%);
+							background: -o-linear-gradient(top, #f7f7f7 0%, #d3d3d3 100%);
+							background: -ms-linear-gradient(top, #f7f7f7 0%, #d3d3d3 100%);
+							background: linear-gradient(to bottom, #f7f7f7 0%, #d3d3d3 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#d3d3d3', GradientType=0);
+						}
+
+						.header-suche {
+							float: right;
+							width: 325px;
+							height: 75px;
+							margin: 20px 20px 0px 0px;
+						}
+
+						.header-aktion {
+							float: left;
+							width: 670px;
+							height: 65px;
+							background-image: url(https://qantis.online/Template/headerbanner.png);
+							background-repeat: no-repeat;
+							background-position: bottom;
+							margin: 20px 0px 0px 25px;
+							border: none;
+						}
+
+						/* MENU */
+						.menubar-corner {
+							width: 1000px;
+							height: 50px;
+							margin-bottom: 20px;
+							-webkit-border-bottom-right-radius: 20px;
+							-webkit-border-bottom-left-radius: 20px;
+							-moz-border-radius-bottomright: 20px;
+							-moz-border-radius-bottomleft: 20px;
+							border-bottom-right-radius: 20px;
+							border-bottom-left-radius: 20px;
+							border-bottom: 5px #e4e4e4 solid;
+							border-top: 5px #333333 solid;
+							overflow: hidden;
+							padding: 0px;
+						}
+
+						.menubar-gradient {
+							width: 100%;
+							height: 50px;
+							background: #222222;
+							background: -moz-linear-gradient(top, #222222 0%, #4a4a4a 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #222222), color-stop(100%, #4a4a4a));
+							background: -webkit-linear-gradient(top, #222222 0%, #4a4a4a 100%);
+							background: -o-linear-gradient(top, #222222 0%, #4a4a4a 100%);
+							background: -ms-linear-gradient(top, #222222 0%, #4a4a4a 100%);
+							background: linear-gradient(to bottom, #222222 0%, #4a4a4a 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#4a4a4a', GradientType=0);
+							margin: 0px;
+							padding-left: 0px;
+									display: inline-block;
+									list-style-type: none;
+						}
+
+						ul {
+							margin: 0px;
+							padding: 0px;
+						}
+
+						ul.menu {
+							font-family: Arial;
+							font-weight: bold;
+							font-size: 16px;
+							display: inline-block;
+							list-style-type: none;
+							width: 100%;
+						}
+
+						ul.menu li {
+							list-style: none;
+							height: 50px;
+							float: left;
+							text-align: center;
+							line-height: 50px;
+							border-right: 1px #424242 solid;
+						}
+
+						ul.menu li a {
+							display: block;
+							padding: 0px 35px;
+							text-decoration: none;
+							color: #FFF;
+							text-shadow: 1px 1px 0px #333;
+						}
+
+						ul.menu li a:visited {
+							color: #FFF;
+							text-shadow: 1px 1px 0px #333;
+						}
+
+						ul.menu li a:hover {
+							background: #5db4fc;
+							background: -moz-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5db4fc), color-stop(100%, #1a5a9b));
+							background: -webkit-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: -o-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: -ms-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: linear-gradient(to bottom, #5db4fc 0%, #1a5a9b 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5db4fc', endColorstr='#1a5a9b', GradientType=0);
+						}
+
+						ul.menu li.last {
+							width: 165px;
+							float: right;
+							border-right: 0px;
+						}
+
+						/* TITEL UND BOX-STYLES */
+						.title-grau-corner {
+							box-shadow: 1px 1px 3px #888;
+							width: 100%;
+							border-bottom: 3px #dedede solid;
+							border-left: 3px #dedede solid;
+							-webkit-border-radius: 40px;
+							-moz-border-radius: 40px;
+							border-radius: 40px;
+							overflow: hidden;
+						}
+
+						.title-grau-gradient {
+							width: 100%;
+							font-family: Arial;
+							font-size: 12px;
+							font-weight: bold;
+							color: #333333;
+							text-shadow: #fff 1px 1px 0px;
+							padding: 12px 0px 7px 0px;
+							background: #ffffff;
+							background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5));
+							background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+						}
+
+						.title-farbe-corner {
+							box-shadow: 1px 1px 3px #888;
+							width: 100%;
+							border-bottom: 3px #18528d solid;
+							border-left: 3px #18528d solid;
+							-webkit-border-radius: 40px;
+							-moz-border-radius: 40px;
+							border-radius: 40px;
+							overflow: hidden;
+							background-color: #1a5a9b;
+						}
+
+						.title-farbe-gradient {
+							width: 100%;
+							font-family: Arial;
+							font-size: 12px;
+							font-weight: bold;
+							color: #FFF;
+							text-shadow: #222 1px 1px 0px;
+							padding: 12px 0px 7px 0px;
+							background: #5db4fc;
+							background: -moz-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5db4fc), color-stop(100%, #1a5a9b));
+							background: -webkit-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: -o-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: -ms-linear-gradient(top, #5db4fc 0%, #1a5a9b 100%);
+							background: linear-gradient(to bottom, #5db4fc 0%, #1a5a9b 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5db4fc', endColorstr='#1a5a9b', GradientType=0);
+						}
+
+						.textbox-verlauf {
+							margin: 10px 0px 0px 0px;
+							padding: 0px 15px 0px 15px;
+							font-family: Arial;
+							font-size: 12px;
+							text-shadow: #fff 1px 1px 0px;
+							color: #333333;
+							background: #efefef;
+							background: -moz-linear-gradient(top, #ffffff 0%, #efefef 62%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(62%, #efefef));
+							background: -webkit-linear-gradient(top, #ffffff 0%, #efefef 62%);
+							background: -o-linear-gradient(top, #ffffff 0%, #efefef 62%);
+							background: -ms-linear-gradient(top, #ffffff 0%, #efefef 62%);
+							background: linear-gradient(top, #ffffff 0%, #efefef 62%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef', GradientType=0);
+						}
+
+						.textbox-verlauf a:link,
+						.textbox-verlauf a:visited {
+							color: #1c5d9e;
+							text-decoration: none;
+							font-weight: bold;
+						}
+
+						.textbox-verlauf a:hover {
+							color: #008bdb;
+							text-decoration: none;
+							font-weight: bold;
+						}
+
+						.textbox {
+							margin: 15px 15px 0px 15px;
+							font-family: Arial;
+							font-size: 12px;
+							text-shadow: #fff 1px 1px 0px;
+							color: #333333;
+						}
+
+						.textbox a:link,
+						.textbox a:visited {
+							color: #1c5d9e;
+							text-decoration: none;
+							font-weight: bold;
+						}
+
+						.textbox a:hover {
+							color: #008bdb;
+							text-decoration: none;
+							font-weight: bold;
+						}
+
+						.title-kat-corner {
+							box-shadow: 1px 0px 3px #888;
+							border-bottom: 3px #18528d solid;
+							-webkit-border-radius: 40px;
+							-moz-border-radius: 40px;
+							border-radius: 40px;
+							overflow: hidden;
+						}
+
+						.title-kat-gradient {
+							width: 100%;
+							font-family: Arial;
+							font-size: 12px;
+							font-weight: bold;
+							color: #333333;
+							text-shadow: #fff 1px 1px 0px;
+							padding: 12px 0px 10px 0px;
+							background: #ffffff;
+							background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5));
+							background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+							background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+						}
+
+						.katbild {
+							border-top: 3px #18528d solid;
+							-webkit-border-radius: 20px;
+							-moz-border-radius: 20px;
+							border-radius: 20px;
+							margin-bottom: 35px;
+						}
+
+						.divider-farbe {
+							width: 100%;
+							height: 15px;
+							margin-bottom: 25px;
+							border-bottom: 3px #18528d solid;
+							-webkit-border-bottom-right-radius: 20px;
+							-webkit-border-bottom-left-radius: 20px;
+							-moz-border-radius-bottomright: 20px;
+							-moz-border-radius-bottomleft: 20px;
+							border-bottom-right-radius: 20px;
+							border-bottom-left-radius: 20px;
+							background: #efefef;
+						}
+
+						.divider-grau {
+							width: 100%;
+							height: 15px;
+							margin-bottom: 30px;
+							border-bottom: 3px #eaeaea solid;
+							-webkit-border-bottom-right-radius: 20px;
+							-webkit-border-bottom-left-radius: 20px;
+							-moz-border-radius-bottomright: 20px;
+							-moz-border-radius-bottomleft: 20px;
+							border-bottom-right-radius: 20px;
+							border-bottom-left-radius: 20px;
+							background: none;
+						}
+
+						/* ARTIKELBILDER-SLIDER */
+						.artikelbilder {
+							position: relative;
+							width: 530px;
+							border: none;
+							float: left;
+							background-repeat: no-repeat;
+							background-position: top center;
+							margin-bottom: 20px;
+						}
+
+						.thumbnail img {
+							border: 5px solid #efefef;
+							margin-top: 410px;
+						}
+
+						.thumbnail:link {
+							text-decoration: none;
+						}
+
+						.thumbnail:hover {
+							background-color: transparent;
+							text-decoration: none;
+						}
+
+						.thumbnail span {
+							position: absolute;
+							left: -1000px;
+							border: none;
+							visibility: hidden;
+							text-decoration: none;
+						}
+
+						.thumbnail span img {
+							padding: 0px;
+							border: none;
+						}
+
+						.thumbnail:hover span {
+							visibility: visible;
+							top: -410px;
+							left: 0px;
+							z-index: 50;
+						}
+
+						/* FOOTER */
+						.footer-corner {
+							width: 1020px;
+							-webkit-border-bottom-right-radius: 40px;
+							-webkit-border-bottom-left-radius: 40px;
+							-moz-border-radius-bottomright: 40px;
+							-moz-border-radius-bottomleft: 40px;
+							border-bottom-right-radius: 40px;
+							border-bottom-left-radius: 40px;
+							overflow: hidden;
+							border-bottom: 5px solid #a1a1a1;
+						}
+
+						.footer-gradient {
+							width: 100%;
+							background: #e1e1e1;
+							background: -moz-linear-gradient(top, #e1e1e1 0%, #c8c8c8 100%);
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e1e1e1), color-stop(100%, #c8c8c8));
+							background: -webkit-linear-gradient(top, #e1e1e1 0%, #c8c8c8 100%);
+							background: -o-linear-gradient(top, #e1e1e1 0%, #c8c8c8 100%);
+							background: -ms-linear-gradient(top, #e1e1e1 0%, #c8c8c8 100%);
+							background: linear-gradient(top, #e1e1e1 0%, #c8c8c8 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#c8c8c8', GradientType=0);
+							font-family: Arial;
+							font-size: 12px;
+						}
+
+						.copyright {
+							font-family: Arial;
+							font-size: 12px;
+							color: #424242;
+							padding: 20px 20px 20px 30px;
+							text-shadow: 1px 1px 0px #efefef;
+						}
+
+						.footer-gradient a:link,
+						.footer-gradient a:visited {
+							color: #1c5d9e;
+							text-decoration: none;
+							font-weight: bold;
+						}
+
+						.footer-gradient a:hover {
+							color: #008bdb;
+							text-decoration: none;
+							font-weight: bold;
+						}
+
+						/* KATEGORIEN */
+						ul.kategorien {
+							text-shadow: none;
+							list-style-type: none;
+							font-weight: bold;
+						}
+
+						ul.kategorien li {
+							background-color: #e8e8e8;
+							margin-top: 2px;
+							padding: 5px 15px;
+							-webkit-border-radius: 20px;
+							-moz-border-radius: 20px;
+							border-radius: 20px;
+						}
+
+						ul.kategorien a {
+							display: block;
+							text-decoration: none;
+						}
+
+						ul.kategorien li:hover {
+							background-color: #dedede;
+						}
+
+						.unterkategorie {
+							width: 130px;
+							margin-left: 14px;
+						}
+					</style>
+					<!--[if IE]>
+<style type="text/css">
+ul.menu li a {padding:0px 34px}
+ul.menu li.last {width:136px;}
+</style>
+<![endif]-->
+					<!-- BG-Header -->
+					<div class="bg-header" align="center" style="font-size: 14pt;">
+						<!-- Header -->
+						<div class="header">
+							<!-- Logo -->
+							<div class="logo-corner">
+								<div class="logo-gradient">
+									<div class="logo-text"><img src="https://qantis.online/Template/logo.jpg"
+											height="70&quot;weidth=&quot;120&quot;"><br>
+										<span style="font-size:12px;">Onlinehandel</span></div>
+									<!-- Logo -->
+								</div>
+							</div>
+							<!-- Header rechts vom Logo -->
+							<div class="header-banner-corner" align="left">
+								<div class="header-banner-gradient">
+									<!-- Aktionsbanner --><a href="https://www.ebay.de/str/qantis" target="_blank">
+										<div class="header-aktion"></div>
+									</a>
+									<!-- Header rechts vom Logo -->
+								</div>
+							</div>
+							<!-- Header -->
+						</div>
+						<!-- BG-Header -->
+					</div>
+					<!-- BG-Content -->
+					<div class="bg-content" align="center" style="">
+						<!-- Content -->
+						<div style="clear: both; width: 1020px; background: rgb(255, 255, 255);">
+							<!-- Menu -->
+							<div class="menubar-corner" style="font-size: 14pt;">
+								<div class="menubar-gradient">
+									<ul class="menu">
+										<li><a href="https://www.ebay.de/str/qantis" target="_blank">Unser Shop</a></li>
+										<li><a href="https://www.ebay.de/str/qantis/Sonderangebote/_i.html?_storecat=4643152011"
+												target="_blank">Sonderangebote</a></li>
+										<li><a href="https://www.ebay.de/usr/qantis" target="_blank">Mich-Seite</a></li>
+										<li><a href="https://feedback.ebay.de/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=qantis&amp;ftab=AllFeedback&amp;myworld=true&amp;rt=nc&amp;_trksid=p2545226.m2531.l4585"
+												target="_blank">Bewertungen</a></li>
+										<li><a href="https://my.ebay.de/ws/eBayISAPI.dll?AcceptSavedSeller&amp;mode=0&amp;preference=0&amp;sellerid=qantis&amp;ru=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dqantis&amp;ssPageName=STRK:MEFS:ADDMP"
+												target="_blank">Newsletter</a></li>
+										<li class="last"><a
+												href="https://contact.ebay.de/ws/eBayISAPI.dll?FindAnswers&amp;frm=284&amp;requested=qantis&amp;iid=-1"
+												target="_blank">Kontakt</a></li>
+									</ul>
+									<!-- Menu -->
+								</div>
+							</div>
+							<!-- Linke Sidebar -->
+							<div style="font-size: 14pt; float: left; width: 205px; margin-left: 15px;" align="center">
+								<!-- Zusatzbox -->
+								<div class="title-farbe-corner">
+									<div class="title-farbe-gradient">Leistungen</div>
+								</div>
+								<div class="textbox-verlauf" align="left"><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>tolle Artikel</b><br><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>günstige Preise</b><br><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>schneller Versand</b><br><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>faire Versandkosten</b><br><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>erstklassiger Service</b><br><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>langjährige Erfahrung</b><br><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>alle Artikel sofort lieferbar</b><br><img
+										src="https://qantis.online/Template/haken.png" style="margin-right:5px"
+										align="absmiddle"><b>Rechnung</b><br>
+								</div>
+								<div class="divider-farbe"></div>
+								<!-- Zahlung -->
+								<div class="title-farbe-corner">
+									<div class="title-farbe-gradient">Zahlung</div>
+								</div>
+								<div class="textbox-verlauf" align="justify"><b>Wir akzeptieren die folgenden
+										Zahlungsarten:</b><br><br>
+									<img src="https://qantis.online/Template/paypal.png" title="PayPal"><br>
+									<img src="https://qantis.online/Template/ueberweisung.png" title="Überweisung"><br>
+									<img src="https://qantis.online/Template/nachnahme.png" title="Nachnahme"><br>
+									<img src="https://qantis.online/Template/barzahlung.png" title="Barzahlung"><br><br>
+									<b>Bitte geben Sie bei Zahlungen per Überweisung unbedingt Ihren ebay-Benutzernamen
+										im Verwendungszweck an.</b></div>
+								<div class="divider-farbe"></div>
+								<!-- Versand -->
+								<div class="title-farbe-corner">
+									<div class="title-farbe-gradient">Versand</div>
+								</div>
+								<div class="textbox-verlauf" align="justify"><b>Bei Bestellung mehrerer Artikel werden
+										Ihnen nur einmalig die jeweils höchsten Versandkosten berechnet.<br><br>Gerne
+										liefern wir auch an Packstationen.<br><br>Wir versenden mit:</b><br><br>
+									<img src="https://qantis.online/Template/post.png" title="Deutsche Post">
+									<img src="https://qantis.online/Template/dhl.png" title="DHL">
+									<img src="https://qantis.online/Template/hermes.png" title="Hermes">
+									<img src="https://qantis.online/Template/abholung.png" title="Selbstabholung">
+									<br><br><img src="https://qantis.online/Template/deutschland.png"
+										style="margin-right:5px" align="absmiddle"><b>Deutschland: 0,00€</b>
+									<hr><img src="https://qantis.online/Template/oesterreich.png"
+										style="margin-right:5px" align="absmiddle"><b>Österreich: 2,90€</b>
+									<hr><img src="https://qantis.online/Template/schweiz.png" style="margin-right:5px"
+										align="absmiddle"><b>Schweiz: 2,90€
+									</b>
+									<hr><img src="https://qantis.online/Template/europa.png" style="margin-right:5px"
+										align="absmiddle"><b>Europa: 2,90€
+									</b></div>
+								<div class="divider-farbe"></div>
+								<!-- Zusatzbox -->
+								<div class="title-farbe-corner">
+									<div class="title-farbe-gradient">Kaufabwicklung</div>
+								</div>
+								<div class="textbox-verlauf" align="justify"><b>Die Kaufabwicklung erfolgt einfach und
+										automatisiert für Sie über unseren Partner Afterbuy.</b><br><br>
+									<div align="center"><img src="https://qantis.online/Template/afterbuy.png"
+											title="Afterbuy"></div>
+								</div>
+								<div class="divider-farbe"></div>
+								<!-- Zusatzbox -->
+								<div class="title-farbe-corner">
+									<div class="title-farbe-gradient">Hinweis</div>
+								</div>
+								<div class="textbox-verlauf" align="justify"><b>Als Kleinunternehmer wird nach § 19 Abs.
+										1 UStG keine Umsatzsteuer berechnet.&nbsp;</b></div>
+								<div class="divider-farbe"></div>
+								<!-- Linke Sidebar -->
+							</div>
+							<!-- Maincontent -->
+							<div style="float: left; margin: 0px 15px; width: 545px;" align="center">
+								<!-- Artikelbeschreibung -->
+								<div class="title-grau-corner" style="font-size: 14pt;">
+									<div class="title-grau-gradient">LÖWE PLÜSCHFIGUR</div>
+								</div>
+								<!-- Artikelbeschreibung-Text -->
+								<div class="textbox" style="font-size: 14pt;">
+									<!-- Artikelbilder-Slider -->
+									<div class="artikelbilder"
+										style="background-image:url(https://qantis.online/Artikelbilder/plueschloewe02.jpg)"
+										align="center">
+										<a class="thumbnail" href="#thumb"><img
+												src="https://qantis.online/Artikelbilder/plueschloewe02.jpg" border="0"
+												height="75px" width="100px">
+											<span><img src="https://qantis.online/Artikelbilder/plueschloewe02.jpg"
+													height="400px" width="530px"></span></a>
+										<a class="thumbnail" href="#thumb"><img
+												src="https://qantis.online/Artikelbilder/plueschloewe03.jpg" border="0"
+												height="75px" width="100px">
+											<span><img src="https://qantis.online/Artikelbilder/plueschloewe03.jpg"
+													height="400px" width="530px"></span></a>
+										<a class="thumbnail" href="#thumb"><img
+												src="https://qantis.online/Artikelbilder/plueschloewe04.jpg" border="0"
+												height="75px" width="100px">
+											<span><img src="https://qantis.online/Artikelbilder/plueschloewe04.jpg"
+													height="400px" width="530px"></span></a>
+										<a class="thumbnail" href="#thumb"><img
+												src="https://qantis.online/Artikelbilder/idena.jpg" border="0"
+												height="75px" width="100px">
+											<span><img src="https://qantis.online/Artikelbilder/idena.jpg"
+													height="400px" width="530px"></span></a></div>
+									<!-- Clear -->
+								</div>
+								<div style="font-size: 14pt; clear: both;"></div>
+								<!-- Artikelbeschreibung -->
+								<div class="title-grau-corner" style="font-size: 14pt;">
+									<div class="title-grau-gradient">ARTIKELBESCHREIBUNG</div>
+								</div>
+								<!-- Artikelbeschreibung-Text -->
+								<div class="textbox" align="left" style="font-size: 14pt;"><b style="font-size: 12px;">
+										<font size="3">&nbsp; &nbsp; &nbsp;- Neuware</font>
+									</b></div>
+								<div class="textbox" align="left" style="font-size: 14pt;"><b style="font-size: 12px;">
+										<font size="3">&nbsp; &nbsp; &nbsp;- Markenware von Idena</font>
+									</b></div>
+								<div class="textbox" align="left" style="font-size: 14pt;"><b style="font-size: 12px;">
+										<font size="3">&nbsp; &nbsp; &nbsp;- stehende Löwe Plüschfigur</font>
+									</b></div>
+								<div class="textbox" align="left" style="font-size: 14pt;"><b style="font-size: 12px;">
+										<font size="3">&nbsp; &nbsp; &nbsp;- gute Verarbeitung</font>
+									</b></div>
+								<div class="textbox" align="left" style="font-size: 14pt;"><b style="font-size: 12px;">
+										<font size="3">&nbsp; &nbsp; &nbsp;- ca. 24cm groß</font>
+									</b></div>
+								<div class="textbox" align="left" style="font-size: 14pt;"><b style="font-size: 12px;">
+										<font size="3">&nbsp; &nbsp; &nbsp;- sehr flauschig</font>
+									</b></div>
+								<div class="textbox" align="left" style="font-size: 14pt;"><span
+										style="font-size: 12px;">
+										<font size="3" style=""><b>&nbsp; &nbsp; &nbsp;- waschbar bis 30°C</b></font>
+									</span></div><!-- Divider -->
+								<div class="divider-grau" style="font-size: 14pt;"></div>
+								<!-- Maincontent -->
+							</div>
+							<!-- Rechte Sidebar -->
+							<div style="font-size: 14pt; float: right; margin-right: 15px; width: 205px;"
+								align="center">
+								<!-- Rechte Kategorien -->
+								<div class="title-farbe-corner">
+									<div class="title-farbe-gradient">Shopkategorien</div>
+								</div>
+								<div class="textbox-verlauf">
+									<ul class="kategorien">
+									</ul>
+								</div>
+								<!-- Kategoriebild 1 --><a
+									href="https://www.ebay.de/str/qantis/Buro-und-Schreibwaren/_i.html?_storecat=1431784011"
+									style="border:none; text-decoration:none;" target="_blank">
+									<div class="katbild"
+										style="background-image:url(https://qantis.online/Template/schreiben.jpg);}">
+										<div class="title-kat-corner" style="margin-top:137px;">
+											<div class="title-kat-gradient">Büro- und Schreibwaren</div>
+										</div>
+									</div>
+								</a>
+								<!-- Kategoriebild 2 --><a
+									href="https://stores.ebay.de/qantis/Haushaltswaren-/_i.html?_fsub=1990703011&amp;_sid=1000510551&amp;_trksid=p4634.c0.m322"
+									style="border:none; text-decoration:none;" target="_blank">
+									<div class="katbild"
+										style="background-image:url(https://qantis.online/Template/haushaltswaren.jpg);}">
+										<div class="title-kat-corner" style="margin-top:137px;">
+											<div class="title-kat-gradient">Haushaltswaren</div>
+										</div>
+									</div>
+								</a>
+								<!-- Kategoriebild 3 --><a
+									href="https://www.ebay.de/str/qantis/Kleidung-Accessoires/_i.html?_storecat=1898621011"
+									style="border:none; text-decoration:none;" target="_blank">
+									<div class="katbild"
+										style="background-image:url(https://qantis.online/Template/kleidung.jpg);}">
+										<div class="title-kat-corner" style="margin-top:137px;">
+											<div class="title-kat-gradient">Kleidung und Accessoires</div>
+										</div>
+									</div>
+								</a>
+								<!-- Kategoriebild 4 --><a
+									href="https://stores.ebay.de/qantis/Kosmetikartikel-/_i.html?_fsub=2576809011&amp;_sid=1000510551&amp;_trksid=p4634.c0.m322"
+									style="border:none; text-decoration:none;" target="_blank">
+									<div class="katbild"
+										style="background-image:url(https://qantis.online/Template/kosmetik.jpg);}">
+										<div class="title-kat-corner" style="margin-top:137px;">
+											<div class="title-kat-gradient">Kosmetikartike​l</div>
+										</div>
+									</div>
+								</a>
+								<!-- Kategoriebild 5 --><a
+									href="https://stores.ebay.de/qantis/Partyzubehor-/_i.html?_fsub=2577251011&amp;_sid=1000510551&amp;_trksid=p4634.c0.m322"
+									style="border:none; text-decoration:none;" target="_blank">
+									<div class="katbild"
+										style="background-image:url(https://qantis.online/Template/party.jpg);}">
+										<div class="title-kat-corner" style="margin-top:137px;">
+											<div class="title-kat-gradient">Partyzubehör</div>
+										</div>
+									</div>
+								</a>
+								<!-- Kategoriebild 6 --><a
+									href="https://www.ebay.de/str/qantis/Spielwaren/_i.html?_storecat=1488866011"
+									style="border:none; text-decoration:none;" target="_blank">
+									<div class="katbild"
+										style="background-image:url(https://qantis.online/Template/spiele.jpg);}">
+										<div class="title-kat-corner" style="margin-top:137px;">
+											<div class="title-kat-gradient">Spielwaren</div>
+										</div>
+									</div>
+								</a>
+								<!-- Kategoriebild 7 --><a
+									href="https://stores.ebay.de/qantis/Sport-und-Fitnessartikel-/_i.html?_fsub=2072519011&amp;_sid=1000510551&amp;_trksid=p4634.c0.m322"
+									style="border:none; text-decoration:none;" target="_blank">
+									<div class="katbild"
+										style="background-image:url(https://qantis.online/Template/sport.jpg);}">
+										<div class="title-kat-corner" style="margin-top:137px;">
+											<div class="title-kat-gradient">Sport- und Fitnessartikel</div>
+										</div>
+									</div>
+								</a>
+								<!-- Rechte Sidebar -->
+							</div>
+							<!-- Clear -->
+							<div style="font-size: 14pt; clear: both; margin: 0px;"></div>
+							<!-- Content -->
+						</div>
+						<!-- BG-Content -->
+					</div>
+					<!-- BG-Footer -->
+					<div class="bg-footer" align="center" style="font-size: 14pt;">
+						<!-- Footer -->
+						<div class="footer-corner" align="center">
+							<div class="footer-gradient">
+								<div class="copyright"><a href="https://www.ebay.de/str/qantis" target="_blank">Unser
+										Shop</a> | <a
+										href="https://www.ebay.de/str/qantis/Sonderangebote/_i.html?_storecat=4643152011"
+										target="_blank">Sonderangebote</a> | <a href="https://www.ebay.de/usr/qantis"
+										target="_blank">Mich-Seite</a> | <a
+										href="https://feedback.ebay.de/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=qantis&amp;ftab=AllFeedback"
+										target="_blank">Bewertungen</a> | <a
+										href="https://my.ebay.de/ws/eBayISAPI.dll?AcceptSavedSeller&amp;mode=0&amp;preference=0&amp;sellerid=qantis&amp;ru=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dqantis&amp;ssPageName=STRK:MEFS:ADDMP"
+										target="_blank">Newsletter</a> | <a
+										href="https://contact.ebay.de/ws/eBayISAPI.dll?ReturnUserEmail&amp;requested=qantis&amp;frm=3692&amp;iid=-1&amp;de=off&amp;redirect=0"
+										target="_blank">Kontakt</a><br><br><span style="font-size:10px;">© 2010 qantis.
+										Alle Rechte vorbehalten.</span></div>
+								<!-- Footer -->
+							</div>
+						</div>
+						<!-- BG-Footer -->
+					</div>
+				</font>
+			</div>
+		</td>
+	</tr>
+</table><span id="closeHtml"></span>
+<script type="text/javascript">
+	var _rfr =
+		'https://www.ebay.de/itm/LOWE-PLUSCHFIGUR-24cm-Idena-Kinder-Kuscheltier-Stofftier-Pluschtier-Stofffigur/123749341837';
+</script>
+<script src="https://ir.ebaystatic.com/rs/v/1yzqmzxk3a3utciscis2t10n1uu.js" type="text/javascript"></script>
